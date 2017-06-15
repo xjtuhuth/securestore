@@ -1,0 +1,9 @@
+---
+applications:
+- name: test-securestore
+  memory: 1G
+  path: target/securestore-0.0.1-SNAPSHOT.jar
+  services:
+      - sample-securestore
+      - sample-schema
+
