@@ -5,6 +5,8 @@ REST-API with GET, POST, and DELETE method. Puts a constant value to the secure 
 
 The sample also shows how to deal with two connected database services in spring cloud connector. Therefore, two service-instances of the hana service (one with securestore plan, the other with schema plan, which is normally used for persistence-service) are bound to the application.
 
+If you want to connect to service with spring cloud connector but in non-spring app, please refer to c4e.aiu.test.securestore.test.TrySpringConnector.
+
 ## prerequisites:
 
 ### create service instances in target space
@@ -28,4 +30,6 @@ POST: "app-domain/securestore to pos a constant value"
 GET: "app-domain/securetore to get the constant value"
 
 DELETE: "app-domain/securetore to delete the constant value"
+
+GET: "app-domain/trySpringConnector to get the constant value"
 
